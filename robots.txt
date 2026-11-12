@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://enciyo.github.io/burlwood/sitemap.xml

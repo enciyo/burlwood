@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burlwood: Wood Block Puzzle — no ads, daily puzzle, 200 levels</title>
+<meta name="description" content="A calm wood block puzzle with no ads and no tracking. Daily Puzzle, 200 Adventure levels, color-blind palettes. Play in your browser or get it on Google Play.">
+<link rel="canonical" href="https://enciyo.github.io/burlwood/">
+<link rel="alternate" hreflang="en" href="https://enciyo.github.io/burlwood/">
+<link rel="alternate" hreflang="tr" href="https://enciyo.github.io/burlwood/tr/">
+<link rel="alternate" hreflang="x-default" href="https://enciyo.github.io/burlwood/">
+<meta name="theme-color" content="#2b4f47">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Burlwood: Wood Block Puzzle">
+<meta property="og:description" content="A calm wood block puzzle with no ads and no tracking. Daily Puzzle, 200 Adventure levels, color-blind palettes. Play in your browser or get it on Google Play.">
+<meta property="og:url" content="https://enciyo.github.io/burlwood/">
+<meta property="og:image" content="https://enciyo.github.io/burlwood/img/feature.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="./img/icon-192.png">
+<link rel="apple-touch-icon" href="./img/icon-192.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"MobileApplication","name":"Burlwood: Wood Block Puzzle","operatingSystem":"Android, Web","applicationCategory":"GameApplication","genre":"Puzzle","inLanguage":"en","description":"A calm wood block puzzle with no ads and no tracking. Daily Puzzle, 200 Adventure levels, color-blind palettes. Play in your browser or get it on Google Play.","url":"https://enciyo.github.io/burlwood/","image":"https://enciyo.github.io/burlwood/img/feature.png","installUrl":"https://play.google.com/store/apps/details?id=com.mustafakilic.burlwood","sameAs":["https://play.google.com/store/apps/details?id=com.mustafakilic.burlwood"],"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
+<style>
+@font-face { font-family: Fredoka; src: url(./play/fonts/Fredoka.ttf); font-weight: 300 700; font-display: swap; }
+:root { --bg1:#2b4f47; --bg2:#16302b; --cream:#fbf1df; --amber:#f2b45a; --amberD:#c27f2a; --wood:#6b4426; --text:#2a1b10; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: Fredoka, system-ui, sans-serif; color: var(--cream);
+  background: radial-gradient(120% 60% at 50% 0%, #3b6a5f 0%, var(--bg1) 40%, var(--bg2) 100%) fixed; background-color: var(--bg2); }
+a { color: inherit; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+header { display:flex; align-items:center; justify-content:space-between; padding:18px 0; }
+.brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:22px; text-decoration:none; }
+.brand img { width:40px; height:40px; border-radius:10px; }
+.lang { font-size:15px; opacity:.85; }
+.hero { text-align:center; padding:32px 0 24px; }
+h1 { font-size: clamp(30px, 6vw, 52px); line-height:1.1; margin:0 0 14px; }
+.lead { font-size: clamp(17px, 2.4vw, 21px); max-width:640px; margin:0 auto 26px; opacity:.92; font-weight:400; }
+.cta { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
+.btn { display:inline-flex; align-items:center; gap:8px; padding:14px 26px; border-radius:16px; font-weight:600; font-size:18px; text-decoration:none; }
+.btn--amber { background: linear-gradient(#f7c878, var(--amber)); color: var(--text); box-shadow: 0 5px 0 var(--amberD); }
+.btn--wood { background: linear-gradient(#8a5a35, var(--wood)); color: var(--cream); box-shadow: 0 5px 0 #4a2e19; }
+.btn:active { transform: translateY(3px); box-shadow:none; }
+.shots { display:flex; gap:14px; overflow-x:auto; scroll-snap-type:x mandatory; padding:18px 2px 26px; }
+.shots img { height: min(62vh, 520px); aspect-ratio: 9/16; border-radius:18px; scroll-snap-align:center; flex:none; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
+h2 { font-size: clamp(24px, 4vw, 34px); text-align:center; margin:36px 0 18px; }
+.feats { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:14px; }
+.feat { background: var(--cream); color: var(--text); border-radius:18px; padding:18px 18px 16px; border:3px solid #e4cfa8; }
+.feat h3 { margin:0 0 6px; font-size:19px; }
+.feat p { margin:0; font-size:15.5px; line-height:1.45; font-weight:400; }
+ol { max-width:560px; margin:0 auto; font-size:17px; line-height:1.6; font-weight:400; }
+.langs { text-align:center; margin-top:18px; opacity:.85; font-weight:400; }
+.final { text-align:center; padding:34px 0 10px; }
+footer { text-align:center; padding:30px 0 40px; font-size:14px; opacity:.75; font-weight:400; }
+footer a { margin:0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="brand" href="./"><img src="./img/icon-192.png" alt="" width="40" height="40">Burlwood</a>
+  <a class="lang" href="./tr/" hreflang="tr">Türkçe</a>
+</header>
+<section class="hero">
+  <h1>Burlwood: Wood Block Puzzle</h1>
+  <p class="lead">A calm block puzzle made of warm, polished wood. No ads, no tracking, a fresh puzzle every day.</p>
+  <div class="cta">
+    <a class="btn btn--amber" href="./play/">▶ Play in your browser</a>
+    <a class="btn btn--wood" href="https://play.google.com/store/apps/details?id=com.mustafakilic.burlwood" rel="noopener">Get it on Google Play</a>
+  </div>
+</section>
+<section class="shots" aria-label="Screenshots">
+  <img src="./img/en/01-home.webp" alt="Burlwood screenshot 1" width="405" height="720" loading="eager">
+  <img src="./img/en/02-classic.webp" alt="Burlwood screenshot 2" width="405" height="720" loading="eager">
+  <img src="./img/en/03-daily.webp" alt="Burlwood screenshot 3" width="405" height="720" loading="eager">
+  <img src="./img/en/04-adventure.webp" alt="Burlwood screenshot 4" width="405" height="720" loading="lazy">
+  <img src="./img/en/05-color-vision.webp" alt="Burlwood screenshot 5" width="405" height="720" loading="lazy">
+  <img src="./img/en/06-map.webp" alt="Burlwood screenshot 6" width="405" height="720" loading="lazy">
+</section>
+<h2>What makes it different</h2>
+<section class="feats">
+  <div class="feat"><h3>No ads, no tracking</h3><p>Nothing interrupts the game and no data leaves your device. It works fully offline.</p></div>
+  <div class="feat"><h3>Daily Puzzle</h3><p>One 60-piece puzzle a day, the same pieces for everyone. Keep your streak and share your result.</p></div>
+  <div class="feat"><h3>200 Adventure levels</h3><p>Each level has its own board and goals. Clear lines to collect amber, leaves, acorns, blossoms and pebbles.</p></div>
+  <div class="feat"><h3>Hold and Rotate</h3><p>Set a piece aside in the hold slot, or turn it with a Rotate charge when the board gets tight.</p></div>
+  <div class="feat"><h3>Combos and cross clears</h3><p>Clear a row and a column with one piece for a big bonus, and keep clearing to build combos.</p></div>
+  <div class="feat"><h3>Color-blind friendly</h3><p>Red-green and blue-yellow palettes with grain patterns keep every block easy to tell apart.</p></div>
+</section>
+<h2>How to play</h2>
+<ol>
+  <li>Drag a block from the tray onto the 8×8 board.</li>
+  <li>Fill a whole row or column to clear it.</li>
+  <li>The game ends when none of your pieces fit, so plan a few moves ahead.</li>
+</ol>
+<p class="langs">Available in 12 languages.</p>
+<section class="final cta">
+  <a class="btn btn--amber" href="./play/">▶ Play in your browser</a>
+  <a class="btn btn--wood" href="https://play.google.com/store/apps/details?id=com.mustafakilic.burlwood" rel="noopener">Get it on Google Play</a>
+</section>
+<footer>
+  <a href="https://enciyo.github.io/burlwood-privacy/">Privacy policy</a>·<a href="https://play.google.com/store/apps/details?id=com.mustafakilic.burlwood" rel="noopener">Google Play</a>
+  <p>© 2026 Burlwood</p>
+</footer>
+</div>
+</body>
+</html>
